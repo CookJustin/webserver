@@ -16,7 +16,7 @@ public class Mappings {
     }
     @GetMapping
     public String getTest(){
-        return "testing changing the route for normal get";
+        return "testing changing the route for normal gettt";
     }
     @PostMapping(value = "/sendCustomer", consumes = "application/json", produces = "application/json")
     public ResponseEntity<Customer> request(@RequestBody Customer customer){
